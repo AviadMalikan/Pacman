@@ -14,8 +14,6 @@ h1 {
     0 0 55px #0051ff, 0 0 75px #0051ff;
 }
 
-
-
 button {
   color: white;
   font-size: 1.2em;
@@ -28,6 +26,11 @@ button {
 button:hover {
   cursor: pointer;
   background-color: blue;
+}
+
+.difficult {
+  font-size: 1em;
+  padding: 10px;
 }
 
 .hide {

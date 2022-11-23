@@ -12,8 +12,13 @@
 
 <body onload="onInit()" onkeyup="movePacman(event)">
     <h1>Lets play Pacman!</h1>
+    
+    <button class="difficult" onclick="setDifficult(1000)">EASY</button>
+    <button class="difficult" onclick="setDifficult(600)">MEDIUM</button>
+    <button class="difficult" onclick="setDifficult(350)">HARD</button>
     <h2>Score: <span>0</span></h2>
 
+    
     <div class="board-container"> </div>
     <div class="play-again-container hide"> </div>
 
