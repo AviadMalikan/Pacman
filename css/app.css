@@ -1,0 +1,61 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-shadow: 0 0 5px #fff,
+    0 0 3px #fff,
+    0 0 20px #0051ff,
+    0 0 30px #0051ff, 0 0 40px #0051ff,
+    0 0 55px #0051ff, 0 0 75px #0051ff;
+}
+
+
+
+button {
+  color: white;
+  font-size: 1.2em;
+  padding: 20px;
+  background-color: black;
+  border: 2px blue solid;
+  transition: 0.1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.hide {
+  display: none;
+}
+
+table {
+  margin: auto;
+}
+
+.cell {
+  width: 1.7em;
+  height: 1.7em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.wall {
+  color: blue;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
