@@ -9,6 +9,12 @@ const CHERRY = '🍒'
 
 var gGame
 var gBoard
+var gDifficult = 1000
+
+function setDifficult(diff) {
+    gDifficult = diff
+    onInit()
+}
 
 function onInit() {
     restartGame()
@@ -105,6 +111,8 @@ function resetValue() {
         foodOnBoard: 0,
         cherryInterval: setInterval(addCherry, 15000)
     }
+    clearInterval(gIntervalGhosts)
+    clearInterval(gGame.cherryInterval)
 }
 
 function openRestartModal(msg) {

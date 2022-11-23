@@ -6,11 +6,12 @@ var gDeadGhosts = []
 
 var gIntervalGhosts
 
+
 function createGhosts(board) {
     for (var i = 0; i < 3; i++) {
         createGhost(board)
     }
-    gIntervalGhosts = setInterval(moveGhosts, 1000)
+    gIntervalGhosts = setInterval(moveGhosts,  gDifficult)
 }
 
 function createGhost(board) {
